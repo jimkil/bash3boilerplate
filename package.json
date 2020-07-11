@@ -7,7 +7,7 @@
     "build": "lanyon build",
     "deploy": "lanyon deploy",
     "encrypt": "lanyon encrypt",
-    "inject": "./_scripts/inject.sh",
+    "inject": "./website/_scripts/inject.sh",
     "install:lanyon": "lanyon install",
     "lint": "shellcheck --shell=bash $(find . -name '*.sh' -maxdepth 2)",
     "release:major": "env SEMANTIC=major npm run release",
@@ -31,7 +31,7 @@
   "devDependencies": {
     "cross-env": "3.1.3",
     "fakefile": "0.0.8",
-    "lanyon": "0.1.7",
+    "lanyon": "0.1.16",
     "next-update": "1.5.1",
     "npm-run-all": "3.1.2",
     "replace": "0.3.0"
